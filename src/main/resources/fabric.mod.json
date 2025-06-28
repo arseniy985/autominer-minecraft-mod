@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "auto-digger",
+  "version": "${version}",
+
+  "name": "Auto Digger",
+  "description": "Автоматическое копание коридоров для стрип-майнинга",
+  "authors": [
+    "AutoDiggerMod"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/auto-digger/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.autodigger.AutoDiggerMod"
+    ],
+    "client": [
+      "com.autodigger.AutoDiggerClient"
+    ]
+  },
+  "mixins": [
+    "auto-digger.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+} 

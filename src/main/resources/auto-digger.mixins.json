@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.autodigger.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "auto-digger.refmap.json",
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+} 
